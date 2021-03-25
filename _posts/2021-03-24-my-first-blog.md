@@ -31,7 +31,8 @@ bundle exec jekyll serve
 ```
 9、这样就可以本地测试博客效果了。访问http://127.0.0.1:4000即可
 
-
+10、github操作，
+参考：https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/README.zh-CN.md
 
 
 ## 参考 
