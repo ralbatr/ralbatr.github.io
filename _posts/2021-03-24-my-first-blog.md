@@ -29,7 +29,7 @@ toc: false
 ```
 bundle exec jekyll serve
 ```
-
+9、这样就可以本地测试博客效果了。访问http://127.0.0.1:4000即可
 
 
 
