@@ -1,29 +1,39 @@
 ---
-title: 为什么使用github io
+title: 如何搭建github io 博客
 author: ralbatr
-date: 2021-03-25 10:52:28 +0800
+date: 2021-03-25 17:52:28 +0800
 categories: [技术]
-tags: [博客,随笔]
+tags: [博客]
 toc: false
 ---
 
-# 为什么使用github io
-> 多年后的我又开始写博客了
+> 趁着热乎，简单写一下流程
 
-  刚上大学的时候，计算机老师让我们每个人都注册一个csdn，当时老师还让我们签到拿积分（暴露年龄了），这样可以以后随便下载资源。
+1、 注册github
 
-​	那时候的CSDN，还是挺好的。后来兴起了很多轻博客，只不过，都是大浪淘沙，没过几年就倒闭关了，有段时间还写过*轻博客*。
+2、 新建一个repo，命名 yourBlogName.github.io
 
-​	大学的时候还是比较喜欢写博客的，主要为了记录学习成果吧。
+3、 到这个repo里，选择setting，下拉，选择theme。此处也可以直接放一个index.html文件
 
-​	那时候学嵌入式，可以写的东西很多。印象比较深的是，自己在宿舍做 leetcode ，当时就会C语言啊。就用C写。
+4、 上传文件
 
-​	大学的时候，真的是能折腾啊。ubuntu 每个版本都安装，电脑是双系统的，还搞过CompizConfig，就为了炫酷的效果。在到后来的黑苹果，真的是乐此不疲啊。
+5、 输入yourBlogName.github.io，访问即可
 
-​	因为装了ubuntu，所以写C就在 ubuntu里，使用gcb调试，真的是，兴趣是最大的老师。但是gcd有个报错，在vs里就不会。然后，就刨根到底，写了一篇博客，阅读量还挺大的，6w多。
+6、 如果你想定制自己的主题。 修改主题。我选择的是 https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/README.zh-CN.md 这个主题，基本是按照这个步骤来的
 
-​	之后也短短续续写，直到上班后写的少了。再后来，csdn，又是关注才能阅读，又是客户端，还有绑定手机号，直接懒得登录了。
+7、 GitHub Pages 的生成
 
-​	但是看到别人写的博客，一直在积累，想想也是一种财富吧。第三方博客，可玩性不强，只能在戴着脚链跳舞，自己搭建博客，还得备案，买域名。我这么抠搜的人，怎么可能。
+8、 个性化 修改配置文件
+<!-- 重新生产博客命令 -->
+```
+bundle exec jekyll serve
+```
+9、这样就可以本地测试博客效果了。访问http://127.0.0.1:4000即可
 
-​	之前也看过github io域名的博客，那时候没多想，直到今天感觉，这个是不是可以免费搞，查了一下，可以啊。用了一上午搞定。
+10、github操作，
+参考：https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/README.zh-CN.md
+
+
+## 参考 
+
+https://sspai.com/post/54608

@@ -7,7 +7,6 @@ tags: [博客]
 toc: false
 ---
 
-# 如何搭建github io 博客
 > 趁着热乎，简单写一下流程
 
 1、 注册github
