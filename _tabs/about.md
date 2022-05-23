@@ -3,6 +3,10 @@ title: 关于
 icon: fas fa-info
 order: 4
 ---
+关于
 
+大学开始就一直有写博客的习惯，但是在天c，一是政策，二是逐利，每个博客都不长久。
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+最初的CSDN，现在多恶心，可惜了自己的博客，高峰的时候，也排名很靠前，特别那段时间研究C语言的时候。后来的轻博客，火了没多久也逃脱不了关闭大吉。
+
+选择这里的原因，写作掌握在自己手里吧，而且是markdown格式，随时可以下载下来保存。
